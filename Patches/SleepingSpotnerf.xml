@@ -2,14 +2,14 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 	  <operations>
-		  <li Class="PatchOperationReplace">
-		    <xpath>/Defs/ThingDef[defName="SleepingSpot"]/statBases/Comfort</xpath>
-		    <value><Comfort>0</Comfort></value>
-		  </li>
-      <li Class="PatchOperationReplace">
-		    <xpath>/Defs/ThingDef[defName="DoubleSleepingSpot"]/statBases/Comfort</xpath>
-		    <value><Comfort>0</Comfort></value>
-      </li>
-    </operations>
-  </Operation>
+		  	<li Class="PatchOperationReplace">
+		    	<xpath>/Defs/ThingDef[defName="SleepingSpot"]/statBases/Comfort</xpath>
+		    	<value><Comfort>0</Comfort></value>
+		  	</li>
+      			<li Class="PatchOperationReplace">
+		    	<xpath>/Defs/ThingDef[defName="DoubleSleepingSpot"]/statBases/Comfort</xpath>
+		    	<value><Comfort>0</Comfort></value>
+      		</li>
+    	</operations>
+  	</Operation>
 </Patch>
